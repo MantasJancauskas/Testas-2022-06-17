@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 100px;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+.colum {
+    width: 20%;
+    text-align: center;
+}
+
+.flex.space-between div img {
+    height: 200px;
+    width: 215px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 42px;
+}
+
+p {
+    color: #ababab;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #e15e4d;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.background1 {
+    background-color: #70c0c9;
+}
+
+.background2 {
+    background-color: #4074bd;
+}
+
+.background3 {
+    background-color: #e05e46;
+}
+
+.background4 {
+    background-color: #919191;
+}
+
+.circle1 {
+    position: absolute;
+    height: 40px;
+    width: 40px;  
+    border-radius: 50%;
+    border: 3px solid #70c0c9;
+    margin-left: -11px;
+    margin-top: -19px;
+    background: white;
+    line-height: 2;
+    color: #70c0c9;
+    font-weight: 600;
+}
+
+.circle2 {
+    position: absolute;
+    height: 40px;
+    width: 40px;  
+    border-radius: 50%;
+    border: 3px solid #4074bd;
+    margin-left: -11px;
+    margin-top: -19px;
+    background: white;
+    line-height: 2;
+    color: #4074bd;
+    font-weight: 600;
+}
+
+.circle3 {
+    position: absolute;
+    height: 40px;
+    width: 40px;  
+    border-radius: 50%;
+    border: 3px solid #e05e46;
+    margin-left: -11px;
+    margin-top: -19px;
+    background: white;
+    line-height: 2;
+    color: #e05e46;
+    font-weight: 600;
+}
+
+.circle4 {
+    position: absolute;
+    height: 40px;
+    width: 40px;  
+    border-radius: 50%;
+    border: 3px solid #919191;
+    margin-left: -11px;
+    margin-top: -19px;
+    background: white;
+    line-height: 2;
+    color: #919191;
+    font-weight: 600;
+}
